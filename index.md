@@ -7,7 +7,7 @@ title: "Seismic Processing Tools"
 
 Welcome to a, hopefully, comprehensive resource for **open-source seismic data analysis and modeling tools**. This purpose of this site is to help researchers, geophysicists, and engineers discover, evaluate, and utilize high-quality software packages for seismic data processing. 
 
-There are other existing resources for seismology, with a focus on deeper Earth and crustal seismology (e.g., [awesome-seismology](https://github.com/schipp/awesome-seismology)) and [core-man's links](https://core-man.github.io/link/post/codes/#synthetic-seismograms). But we wanted to try to capture things for near-surface applications. 
+There are other existing resources for seismology, with a focus on deeper Earth and crustal seismology (e.g., [awesome-seismology](https://github.com/schipp/awesome-seismology)) and [core-man's links](https://core-man.github.io/link/post/codes/#synthetic-seismograms). SEG also has the [GEOPHYSICS source-code archive](https://wiki.seg.org/wiki/Software:GEOPHYSICS_source-code_archive) and other [free exploration-geophysical software](https://wiki.seg.org/wiki/Software:Home_page). But we wanted to try to capture things for near-surface applications. 
 
 ## About This Resource
 
