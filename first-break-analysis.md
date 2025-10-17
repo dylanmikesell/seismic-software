@@ -12,7 +12,7 @@ First break picking is a fundamental step in seismic data processing, involving 
 
 ---
 
-<details class="tool-card collapsible" open>
+<details class="tool-card collapsible">
   <summary class="tool-header">
     <div style="display: flex; align-items: center; flex: 1;">
       <h3 class="tool-title">HardPicks</h3>
@@ -71,7 +71,7 @@ First break picking is a fundamental step in seismic data processing, involving 
   </div>
 </details>
 
-<details class="tool-card collapsible" open>
+<details class="tool-card collapsible">
   <summary class="tool-header">
     <div style="display: flex; align-items: center; flex: 1;">
       <h3 class="tool-title">FirstBreaksPicking</h3>
@@ -134,7 +134,7 @@ First break picking is a fundamental step in seismic data processing, involving 
   </div>
 </details>
 
-<details class="tool-card collapsible" open>
+<details class="tool-card collapsible">
   <summary class="tool-header">
     <div style="display: flex; align-items: center; flex: 1;">
       <h3 class="tool-title">geo-stack First Break Picking</h3>

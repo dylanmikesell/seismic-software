@@ -12,7 +12,7 @@ Pre-processing is the foundational step in seismic data processing, involving th
 
 ---
 
-<details class="tool-card collapsible" open>
+<details class="tool-card collapsible">
   <summary class="tool-header">
     <div style="display: flex; align-items: center; flex: 1;">
       <h3 class="tool-title">SeismicPro</h3>
