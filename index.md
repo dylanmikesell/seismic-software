@@ -1,0 +1,79 @@
+---
+layout: default
+title: "Seismic Processing Tools"
+---
+
+# Seismic Processing Tools
+
+Welcome to a comprehensive resource for **open-source seismic data analysis and modeling tools**. This site is designed to help researchers, geophysicists, and engineers discover, evaluate, and utilize high-quality software packages for seismic data processing.
+
+## About This Resource
+
+The field of seismic data processing encompasses a wide range of techniques and methodologies. This site organizes tools by their primary application areas, making it easier to find the right software for your specific needs. Each tool listing includes:
+
+- **Repository information** and GitHub links
+- **Maintenance status** and development activity
+- **Programming language** and dependencies
+- **Key features** and capabilities
+- **Installation guidance** and documentation quality
+
+## Processing Methods
+
+<div class="method-nav">
+  <h3>Explore by Method</h3>
+  <div class="method-grid">
+    <a href="{{ '/first-break-analysis/' | relative_url }}" class="method-link">
+      <strong>First Break Analysis</strong><br>
+      <small>Automatic picking and analysis tools</small>
+    </a>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Velocity Analysis</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Migration</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Noise Reduction</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Inversion & Modeling</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Visualization</strong><br>
+      <small>Coming soon...</small>
+    </div>
+  </div>
+</div>
+
+## Contributing
+
+This resource is continuously updated with new tools and techniques. If you know of high-quality open-source seismic processing software that should be included, please consider contributing:
+
+1. **Submit suggestions** via GitHub issues
+2. **Fork and contribute** directly to this repository
+3. **Share your experience** with tools you've used
+
+## Evaluation Criteria
+
+Tools are evaluated based on several criteria:
+
+- **Code Quality**: Documentation, testing, and structure
+- **Maintenance**: Recent commits, issue responses, and community
+- **Usability**: Installation ease, examples, and tutorials
+- **Performance**: Computational efficiency and scalability
+- **Community**: User base, citations, and academic adoption
+
+## Getting Started
+
+1. **Browse by method** using the navigation above
+2. **Check maintenance status** for active development
+3. **Review requirements** and installation procedures
+4. **Start with well-documented tools** if you're new to the method
+
+---
+
+*Last updated: {{ site.time | date: "%B %d, %Y" }}*

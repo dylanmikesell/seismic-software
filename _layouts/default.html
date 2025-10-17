@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <div class="site-title-container">
+                <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+                <p class="site-description">{{ site.description | escape }}</p>
+            </div>
+            
+            <nav class="site-nav">
+                <div class="trigger">
+                    <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+                    <a class="page-link" href="{{ '/first-break-analysis/' | relative_url }}">First Break Analysis</a>
+                    <!-- Add more method pages here -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-content">
+                <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. A resource for open-source seismic processing tools.</p>
+                <p>Maintained by <a href="https://github.com/{{ site.github.owner_name }}">{{ site.author.name | default: site.github.owner_name }}</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

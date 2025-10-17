@@ -1,0 +1,39 @@
+# Site settings
+title: "Seismic Processing Tools"
+description: "A comprehensive resource for open-source seismic data analysis and modeling tools"
+url: "https://dylanmikesell.github.io"
+baseurl: "/seismic-software"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - index.md
+  - first-break-analysis.md
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Collections for organized content
+collections:
+  methods:
+    output: true
+    permalink: /:collection/:name/
+
+# Site metadata
+author:
+  name: "Dylan Mikesell"
+  email: "your-email@example.com"
+
+# Academic/professional styling
+academic_style: true
