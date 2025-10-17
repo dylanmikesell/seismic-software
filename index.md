@@ -5,17 +5,21 @@ title: "Seismic Processing Tools"
 
 # Seismic Processing Tools
 
-Welcome to a comprehensive resource for **open-source seismic data analysis and modeling tools**. This site is designed to help researchers, geophysicists, and engineers discover, evaluate, and utilize high-quality software packages for seismic data processing.
+Welcome to a, hopefully, comprehensive resource for **open-source seismic data analysis and modeling tools**. This purpose of this site is to help researchers, geophysicists, and engineers discover, evaluate, and utilize high-quality software packages for seismic data processing. 
 
 ## About This Resource
 
-The field of seismic data processing encompasses a wide range of techniques and methodologies. This site organizes tools by their primary application areas, making it easier to find the right software for your specific needs. Each tool listing includes:
+The field of seismic data processing encompasses a wide range of techniques and methodologies. This site organizes tools by their primary application areas, making it easier to find the right software for your specific needs. We try to ensure that each tool listing includes:
 
 - **Repository information** and GitHub links
 - **Maintenance status** and development activity
 - **Programming language** and dependencies
 - **Key features** and capabilities
 - **Installation guidance** and documentation quality
+
+## Submit Resource Suggestions
+
+> **📝 Have a tool to recommend?** Help expand this resource by [submitting a GitHub issue](https://github.com/dylanmikesell/seismic-software/issues/new) with details about open-source seismic processing tools you'd like to see featured. Include the tool name, repository link, and brief description to help the community discover valuable resources.
 
 ## Processing Methods
 
@@ -43,6 +47,14 @@ The field of seismic data processing encompasses a wide range of techniques and 
       <small>Coming soon...</small>
     </div>
     <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Surface Wave Analysis</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+      <strong>Tomography</strong><br>
+      <small>Coming soon...</small>
+    </div>
+    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
       <strong>Visualization</strong><br>
       <small>Coming soon...</small>
     </div>
@@ -53,7 +65,7 @@ The field of seismic data processing encompasses a wide range of techniques and 
 
 This resource is continuously updated with new tools and techniques. If you know of high-quality open-source seismic processing software that should be included, please consider contributing:
 
-1. **Submit suggestions** via GitHub issues
+1. **Submit suggestions** via [GitHub issue](https://github.com/dylanmikesell/seismic-software/issues/new)
 2. **Fork and contribute** directly to this repository
 3. **Share your experience** with tools you've used
 

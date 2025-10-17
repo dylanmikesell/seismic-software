@@ -159,6 +159,41 @@ a {
     &:hover {
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+    
+    // Collapsible tool cards
+    &.collapsible {
+        padding: 0;
+        
+        summary {
+            padding: 20px;
+            cursor: pointer;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+            border-radius: 8px;
+            
+            &:hover {
+                background-color: rgba($secondary-blue, 0.05);
+            }
+            
+            // Hide default marker
+            &::-webkit-details-marker {
+                display: none;
+            }
+        }
+        
+        .tool-content {
+            padding: 0 20px 20px 20px;
+            border-top: 1px solid $border-color;
+            margin-top: -1px;
+        }
+        
+        &[open] {
+            .collapse-indicator {
+                transform: rotate(180deg);
+            }
+        }
+    }
 }
 
 .tool-header {
@@ -166,6 +201,19 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 15px;
+    
+    // For collapsible cards
+    .collapsible & {
+        margin-bottom: 0;
+        align-items: center;
+        
+        .collapse-indicator {
+            color: $secondary-blue;
+            font-size: 1.2em;
+            transition: transform 0.2s ease;
+            margin-left: 10px;
+        }
+    }
 }
 
 .tool-title {
