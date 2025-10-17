@@ -28,6 +28,10 @@ The field of seismic data processing encompasses a wide range of techniques and 
 <div class="method-nav">
   <h3>Explore by Method</h3>
   <div class="method-grid">
+    <a href="{{ '/pre-processing/' | relative_url }}" class="method-link">
+      <strong>Pre-processing</strong><br>
+      <small>Data conditioning and format conversion</small>
+    </a>
     <a href="{{ '/first-break-analysis/' | relative_url }}" class="method-link">
       <strong>First Break Analysis</strong><br>
       <small>Automatic picking and analysis tools</small>
