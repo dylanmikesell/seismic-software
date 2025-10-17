@@ -103,7 +103,7 @@ To add a new pre-processing tool to this page:
 ### Tool Template
 
 ```markdown
-<details class="tool-card collapsible" open>
+<details class="tool-card collapsible">
   <summary class="tool-header">
     <div style="display: flex; align-items: center; flex: 1;">
       <h3 class="tool-title">Tool Name</h3>
