@@ -4,7 +4,7 @@ title: "First Break Analysis"
 permalink: /first-break-analysis/
 ---
 
-# First Break Analysis Tools
+<!-- # First Break Analysis Tools -->
 
 First break picking is a fundamental step in seismic data processing, involving the identification of the first arrival times of seismic waves. Accurate first break picking is crucial for velocity analysis, static corrections, and overall data quality. This page lists open-source tools specifically designed for automated and semi-automated first break analysis.
 
