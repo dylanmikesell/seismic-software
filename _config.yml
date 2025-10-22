@@ -17,6 +17,7 @@ header_pages:
   - index.md
   - pre-processing.md
   - first-break-analysis.md
+  - surface-wave-analysis.md
 
 # Exclude files from build
 exclude:

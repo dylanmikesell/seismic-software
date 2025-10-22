@@ -52,10 +52,10 @@ The field of seismic data processing encompasses a wide range of techniques and 
       <strong>Inversion & Modeling</strong><br>
       <small>Coming soon...</small>
     </div>
-    <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
+    <a href="{{ '/surface-wave-analysis/' | relative_url }}" class="method-link">
       <strong>Surface Wave Analysis</strong><br>
-      <small>Coming soon...</small>
-    </div>
+      <small>MASW, SPAC, and dispersion analysis</small>
+    </a>
     <div class="method-link" style="opacity: 0.5; cursor: not-allowed;">
       <strong>Tomography</strong><br>
       <small>Coming soon...</small>
